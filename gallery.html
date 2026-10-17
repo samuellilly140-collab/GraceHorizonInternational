@@ -1,0 +1,737 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore life at Grace Horizon International School through our school gallery.">
+
+    <title>Gallery | Grace Horizon International School</title>
+
+    <link rel="stylesheet" href="gallerystyle.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="index.html" class="school-logo">
+                <span class="logo-symbol">✳</span>
+
+                <span class="logo-text">
+                    GRACE HORIZON
+                    <span class="logo-subtitle">
+                        INTERNATIONAL SCHOOL
+                    </span>
+                </span>
+            </a>
+
+            <button class="menu-toggle"
+                    type="button"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About Us</a>
+                <a href="gallery.html"
+                   class="active"
+                   aria-current="page">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <a href="contact.html" class="nav-button">
+                Get in Touch <span>↗</span>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="gallery-hero">
+
+            <div class="gallery-hero-content">
+
+                <span class="gallery-eyebrow">
+                    ✳ A GLIMPSE INTO OUR WORLD
+                </span>
+
+                <h1>
+                    Little Moments.<br>
+                    <span>Beautiful Memories.</span>
+                </h1>
+
+                <p>
+                    Every smile tells a story. Every moment is
+                    an opportunity to learn, grow and shine.
+                    Explore the beautiful memories we create
+                    at Grace Horizon International School.
+                </p>
+
+                <a href="#gallery-collection"
+                   class="gallery-explore-button">
+                    Explore Our Gallery
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+            <div class="gallery-hero-decoration decoration-one"
+                 aria-hidden="true">✳</div>
+
+            <div class="gallery-hero-decoration decoration-two"
+                 aria-hidden="true">✦</div>
+
+        </section>
+
+
+        <!-- INTRODUCTION -->
+        <section class="gallery-introduction">
+
+            <div class="gallery-intro-container">
+
+                <div class="gallery-intro-label">
+                    <span>01 — OUR SCHOOL MEMORIES</span>
+                </div>
+
+                <div class="gallery-intro-text">
+
+                    <h2>
+                        Life at Grace Horizon
+                        is full of <span>colour.</span>
+                    </h2>
+
+                    <p>
+                        From exciting classroom discoveries to
+                        unforgettable celebrations, these are
+                        the moments that make our school special.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PHOTO COLLECTION -->
+        <section class="gallery-section"
+                 id="gallery-collection">
+
+            <div class="gallery-container">
+
+                <div class="gallery-heading">
+
+                    <div>
+                        <span class="section-label">
+                            OUR PHOTO COLLECTION
+                        </span>
+
+                        <h2>
+                            Memories Worth
+                            <span>Sharing.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Discover the joy, creativity and
+                        achievements of our school community.
+                    </p>
+
+                </div>
+
+
+                <!-- FILTER BUTTONS -->
+                <div class="gallery-filters"
+                     role="group"
+                     aria-label="Filter gallery photographs">
+
+                    <button class="filter-btn active"
+                            type="button"
+                            data-filter="all"
+                            aria-pressed="true">
+                        All Photos
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="school-life"
+                            aria-pressed="false">
+                        School Life
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="celebrations"
+                            aria-pressed="false">
+                        Celebrations
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="learning"
+                            aria-pressed="false">
+                        Learning & Creativity
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="sports"
+                            aria-pressed="false">
+                        Sports & Activities
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="graduation"
+                            aria-pressed="false">
+                        Graduation
+                    </button>
+
+                </div>
+
+
+                <!-- ALL 24 PHOTOGRAPHS -->
+                <div class="gallery-grid">
+
+                    <!-- 01 -->
+                    <figure class="gallery-item gallery-item-large"
+                            data-category="school-life">
+
+                        <img src="images/Colorful School Assembly Courtyard.png"
+                             alt="School assembly in the colourful courtyard"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Our Colourful School</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 02 -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/Festive School Hallway Ceremony.png"
+                             alt="Students celebrating a school ceremony"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Special School Moments</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 03 -->
+                    <figure class="gallery-item"
+                            data-category="graduation">
+
+                        <img src="images/Graduation Day at the Colorful School (1).png"
+                             alt="Students celebrating graduation day"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Graduation</span>
+                            <h3>A Proud Graduation Day</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 04 -->
+                    <figure class="gallery-item"
+                            data-category="school-life">
+
+                        <img src="images/School Assembly at the Colorful Courtyard.png"
+                             alt="Students gathered outside their school"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Growing Together</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 05 -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/School Photos1.jpeg"
+                             alt="Students taking part in a school performance"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Joyful Performances</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 06 -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/School Photos2.jpeg"
+                             alt="Students performing together"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Moments on Stage</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 07 -->
+                    <figure class="gallery-item gallery-item-wide"
+                            data-category="sports">
+
+                        <img src="images/WhatsApp Image 2026-10-13 at 12.20.04 AM.jpeg"
+                             alt="Children enjoying outdoor school sports"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Sports & Activities</span>
+                            <h3>Learning Through Play</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 08 -->
+                    <figure class="gallery-item"
+                            data-category="school-life">
+
+                        <img src="images/Joyful Schoolyard Group Portrait.png"
+                             alt="Happy students posing in the schoolyard"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Smiles All Around</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 09 -->
+                    <figure class="gallery-item"
+                            data-category="school-life">
+
+                        <img src="images/Joyful School Group Portrait.png"
+                             alt="Students posing together outside school"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Our School Family</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 10 -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/Vibrant School Courtyard Group Portrait.png"
+                             alt="Students in colourful cultural outfits"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Celebrating Our Culture</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 11 -->
+                    <figure class="gallery-item gallery-item-large"
+                            data-category="celebrations">
+
+                        <img src="images/Vibrant Cultural Dance in Community Hall.png"
+                             alt="Children performing a cultural dance"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Culture, Music & Dance</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 12 -->
+                    <figure class="gallery-item"
+                            data-category="learning">
+
+                        <img src="images/Cheerful School Craft Showcase (1).png"
+                             alt="Children proudly showing their craft projects"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Learning & Creativity</span>
+                            <h3>Little Creative Minds</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 13 -->
+                    <figure class="gallery-item"
+                            data-category="learning">
+
+                        <img src="images/Cheerful School Craft Showcase.png"
+                             alt="Students displaying creative school projects"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Learning & Creativity</span>
+                            <h3>Made With Imagination</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 14 -->
+                    <figure class="gallery-item"
+                            data-category="learning">
+
+                        <img src="images/Bright Classroom Learning Scene.png"
+                             alt="Students learning inside their classroom"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Learning & Creativity</span>
+                            <h3>Learning Every Day</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 15 -->
+                    <figure class="gallery-item"
+                            data-category="learning">
+
+                        <img src="images/Bright Classroom Portrait with Students in Red Uniforms.png"
+                             alt="Students in red uniforms inside the classroom"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Learning & Creativity</span>
+                            <h3>Bright Young Learners</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 16 -->
+                    <figure class="gallery-item"
+                            data-category="school-life">
+
+                        <img src="images/Playful Bunny Hat in Preschool.png"
+                             alt="Young child enjoying preschool activities"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Our Little Explorers</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 17 -->
+                    <figure class="gallery-item"
+                            data-category="learning">
+
+                        <img src="images/Joyful Classroom Craft Parade.png"
+                             alt="Children celebrating their classroom craft projects"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Learning & Creativity</span>
+                            <h3>Creative Little Hands</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 18 -->
+                    <figure class="gallery-item"
+                            data-category="school-life">
+
+                        <img src="images/Neatly Aligned School Portrait.png"
+                             alt="Two students in their school uniforms"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Our Wonderful Students</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 19 -->
+                    <figure class="gallery-item"
+                            data-category="school-life">
+
+                        <img src="images/Tartan School Portrait Duo.png"
+                             alt="Students posing in school uniforms"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>School Life</span>
+                            <h3>Growing With Confidence</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 20 -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/Elegant Ceremony Hall Speaker.png"
+                             alt="Speaker at a school celebration"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>A Special Occasion</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 21 -->
+                    <figure class="gallery-item gallery-item-wide"
+                            data-category="celebrations">
+
+                        <img src="images/Festive Community Hall Celebration.png"
+                             alt="Children celebrating together in a hall"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Unforgettable Memories</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 22 -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/Festive Hall Dance Celebration.png"
+                             alt="School dance celebration"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Celebrating Together</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 23: ADDITIONAL SCHOOL PHOTOGRAPH -->
+                    <figure class="gallery-item"
+                            data-category="celebrations">
+
+                        <img src="images/ChurchPhotos.jpeg"
+                             alt="Guests posing during a special event"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Celebrations</span>
+                            <h3>Special Memories</h3>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- 24: ADDITIONAL SCHOOL PHOTOGRAPH -->
+                    <figure class="gallery-item"
+                            data-category="sports">
+
+                        <img src="images/WhatsApp Image 2026-10-13 at 07.21.50.jpeg"
+                             alt="Children enjoying a school activity"
+                             loading="lazy">
+
+                        <figcaption class="gallery-overlay">
+                            <span>Sports & Activities</span>
+                            <h3>Fun School Activities</h3>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+                <p class="gallery-empty-message" hidden>
+                    No photographs are available in this category yet.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- MEMORY SECTION -->
+        <section class="gallery-memory-section">
+
+            <div class="gallery-memory-content">
+
+                <span class="memory-decoration"
+                      aria-hidden="true">✳</span>
+
+                <p class="section-label">
+                    MORE THAN JUST PHOTOGRAPHS
+                </p>
+
+                <h2>
+                    Every Picture Holds
+                    <span>a Beautiful Story.</span>
+                </h2>
+
+                <p>
+                    At Grace Horizon International School,
+                    we cherish every milestone, every achievement
+                    and every joyful moment that helps our
+                    children flourish.
+                </p>
+
+                <a href="index.html#about" class="memory-button">
+                    Discover Our Story <span>↗</span>
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="gallery-contact-section">
+
+            <div class="gallery-contact-container">
+
+                <div>
+                    <span class="section-label">
+                        BECOME PART OF OUR FAMILY
+                    </span>
+
+                    <h2>
+                        Your Child's Story
+                        <span>Starts Here.</span>
+                    </h2>
+
+                    <p>
+                        Join a school community where every
+                        child is encouraged to learn,
+                        grow and shine.
+                    </p>
+                </div>
+
+                <a href="contact.html" class="contact-cta-button">
+                    Get in Touch <span>↗</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h3>
+                    Grace Horizon<br>
+                    International School
+                </h3>
+
+                <p>
+                    Nurturing young minds, building strong
+                    foundations and inspiring extraordinary futures.
+                </p>
+
+                <p class="footer-motto">
+                    Little Seeds. Extraordinary Futures.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Connect With Us</h4>
+
+                <p>
+                    We'd love to hear from you.
+                    Get in touch to learn more about our school.
+                </p>
+
+                <a href="contact.html">
+                    Contact Our School →
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 Grace Horizon International School.
+                All Rights Reserved.
+            </p>
+
+            <a href="index.html">
+                Back to Home ↑
+            </a>
+        </div>
+
+    </footer>
+
+
+    <!-- FULL-SCREEN PHOTO VIEWER -->
+    <div class="gallery-lightbox"
+         id="gallery-lightbox"
+         role="dialog"
+         aria-modal="true"
+         aria-label="Photo viewer"
+         aria-hidden="true"
+         hidden>
+
+        <button class="lightbox-close"
+                type="button"
+                aria-label="Close photo viewer">
+            &times;
+        </button>
+
+        <button class="lightbox-prev"
+                type="button"
+                aria-label="Previous photograph">
+            &#10094;
+        </button>
+
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="" alt="">
+            <p id="lightbox-caption"></p>
+        </div>
+
+        <button class="lightbox-next"
+                type="button"
+                aria-label="Next photograph">
+            &#10095;
+        </button>
+
+    </div>
+
+</body>
+</html>

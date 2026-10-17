@@ -1,0 +1,1624 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Grace Horizon International School. Raising children in faith, knowledge, character and excellence.">
+
+    <meta name="theme-color" content="#173F32">
+
+    <title>Grace Horizon International School | Home</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- MAIN JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+         CUSTOM MOVING CURSOR
+    ========================================== -->
+
+    <div class="custom-cursor" aria-hidden="true">
+        <div class="cursor-dot"></div>
+
+        <div class="cursor-outline">
+            <span class="cursor-text"></span>
+        </div>
+    </div>
+
+
+    <!-- ==========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar" aria-label="Main navigation">
+
+            <!-- LOGO -->
+            <a href="index.html" class="school-logo">
+
+                <span class="logo-symbol" aria-hidden="true">
+                    ✳
+                </span>
+
+                <span class="logo-text">
+                    GRACE HORIZON
+
+                    <span class="logo-subtitle">
+                        INTERNATIONAL SCHOOL
+                    </span>
+                </span>
+
+            </a>
+
+
+            <!-- MOBILE MENU -->
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="nav-links">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+            <!-- NAVIGATION LINKS -->
+            <div class="nav-links" id="nav-links">
+
+                <a href="index.html"
+                   class="active"
+                   aria-current="page">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+            </div>
+
+
+            <!-- CONTACT BUTTON -->
+            <a href="contact.html" class="nav-button">
+
+                Get in Touch
+
+                <span aria-hidden="true">↗</span>
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==========================================
+             01 — HERO SECTION
+        ========================================== -->
+
+        <section
+            class="hero"
+            id="home"
+            aria-label="Welcome to Grace Horizon International School">
+
+
+            <!-- AUTOMATIC PHOTO BANNERS -->
+            <div class="hero-slider">
+
+                <!-- SLIDE 1 -->
+                <div class="hero-slide active">
+
+                    <img
+                        src="images/School Assembly at the Colorful Courtyard.png"
+                        alt="Grace Horizon pupils during school assembly"
+                        class="hero-image"
+                        fetchpriority="high">
+
+                </div>
+
+
+                <!-- SLIDE 2 -->
+                <div class="hero-slide">
+
+                    <img
+                        src="images/Colorful School Assembly Courtyard.png"
+                        alt="Grace Horizon school courtyard"
+                        class="hero-image">
+
+                </div>
+
+
+                <!-- SLIDE 3 -->
+                <div class="hero-slide">
+
+                    <img
+                        src="images/Joyful Classroom Craft Parade.png"
+                        alt="Children enjoying classroom activities"
+                        class="hero-image">
+
+                </div>
+
+            </div>
+
+
+            <!-- OVERLAY -->
+            <div class="hero-overlay"></div>
+
+
+            <!-- HERO CONTENT -->
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    WELCOME TO GRACE HORIZON
+                    INTERNATIONAL SCHOOL
+                </p>
+
+
+                <h1 class="hero-title">
+
+                    <span class="hero-title-line">
+                        Where Young
+                    </span>
+
+                    <span class="hero-title-line">
+
+                        Minds
+
+                        <span
+                            class="changing-word"
+                            id="changing-word">
+                            Flourish.
+                        </span>
+
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Nurturing young minds,
+                    inspiring excellence,
+                    and building a brighter
+                    future for every child.
+
+                </p>
+
+
+                <!-- HERO BUTTONS -->
+                <div class="hero-buttons">
+
+                    <a href="#about"
+                       class="primary-button">
+
+                        Discover Our School
+
+                        <span aria-hidden="true">↗</span>
+
+                    </a>
+
+
+                    <a href="gallery.html"
+                       class="secondary-button">
+
+                        Explore Our Gallery
+
+                        <span aria-hidden="true">↗</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDER CONTROLS -->
+            <div class="hero-slider-controls">
+
+                <button
+                    type="button"
+                    class="slider-prev"
+                    aria-label="Previous banner">
+                    ←
+                </button>
+
+
+                <span class="slide-number">
+
+                    <span id="current-slide">01</span>
+
+                    <span aria-hidden="true"> / </span>
+
+                    <span id="total-slides">03</span>
+
+                </span>
+
+
+                <button
+                    type="button"
+                    class="slider-next"
+                    aria-label="Next banner">
+                    →
+                </button>
+
+            </div>
+
+
+            <!-- SCROLL INDICATOR -->
+            <a href="#about"
+               class="hero-scroll-indicator">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <span class="scroll-arrow"
+                      aria-hidden="true">
+                    ↓
+                </span>
+
+            </a>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             02 — SMALL BEGINNINGS
+             FOUNDERS AND SCHOOL VISION
+        ========================================== -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-container">
+
+
+                <!-- LEFT: FOUNDERS PHOTOGRAPHS -->
+                <div class="about-images founders-images">
+
+                    <span class="founders-background-word"
+                          aria-hidden="true">
+                        VISION
+                    </span>
+
+
+                    <!-- MAIN FOUNDERS IMAGE -->
+                    <figure class="founders-main-photo">
+
+                        <img
+                            src="images/ChurchPhotos.jpeg"
+                            alt="Dr. Samuel and Nike Ajayi, founders of Grace Horizon International School"
+                            class="about-main-image founders-photo"
+                            loading="lazy">
+
+
+                        <figcaption class="founders-photo-caption">
+
+                            <span class="founders-caption-label">
+                                MEET OUR FOUNDERS
+                            </span>
+
+                            <strong>
+                                Dr. Samuel &amp; Nike Ajayi
+                            </strong>
+
+                        </figcaption>
+
+                    </figure>
+
+
+                    <!-- FLOATING SCHOOL IMAGE -->
+                    <figure class="founders-floating-photo">
+
+                        <img
+                            src="images/WhatsApp Image 2026-10-13 at 12.20.04 AM.jpeg"
+                            alt="Children participating in school activities"
+                            loading="lazy">
+
+                    </figure>
+
+
+                    <!-- FAITH BADGE -->
+                    <div class="about-image-badge founders-vision-badge">
+
+                        <span>Rooted</span>
+
+                        <span>in Faith</span>
+
+                        <span>✳</span>
+
+                    </div>
+
+
+                    <!-- DECORATIVE STARS -->
+                    <span
+                        class="founders-decoration founders-star-one"
+                        aria-hidden="true">
+                        ✳
+                    </span>
+
+                    <span
+                        class="founders-decoration founders-star-two"
+                        aria-hidden="true">
+                        ✦
+                    </span>
+
+                </div>
+
+
+                <!-- RIGHT: FOUNDERS STORY -->
+                <div class="about-content founders-content">
+
+                    <p class="section-label">
+                        OUR STORY • OUR VISION
+                    </p>
+
+
+                    <h2 class="section-heading">
+
+                        Small Beginnings.
+
+                        <br>
+
+                        <span>
+                            Extraordinary Futures.
+                        </span>
+
+                    </h2>
+
+
+                    <p class="about-description">
+
+                        Every great future begins
+                        with a seed of faith.
+
+                    </p>
+
+
+                    <p>
+
+                        Grace Horizon International School
+                        was born from a God-given vision
+                        entrusted to its founders,
+
+                        <strong>
+                            Dr. Samuel and Nike Ajayi.
+                        </strong>
+
+                        What began as a seed of faith
+                        grew into a mission to nurture
+                        children in knowledge, character,
+                        excellence, and the fear of God.
+
+                    </p>
+
+
+                    <p>
+
+                        At the heart of this vision
+                        is a powerful declaration
+                        from God's Word, given as
+                        a proclamation over the lives
+                        of the children entrusted
+                        to the school.
+
+                    </p>
+
+
+                    <!-- SCRIPTURE QUOTE -->
+                    <blockquote class="founders-scripture">
+
+                        <span
+                            class="scripture-quote-mark"
+                            aria-hidden="true">
+                            “
+                        </span>
+
+                        <p>
+                            The seed of the righteous
+                            shall be mighty.
+                        </p>
+
+                        <cite>
+                            PSALM 112:2
+                        </cite>
+
+                    </blockquote>
+
+
+                    <p>
+
+                        These words became more than
+                        a school motto. They became
+                        a declaration of faith,
+                        purpose, and greatness
+                        over every child.
+
+                        Today, Grace Horizon
+                        International School continues
+                        to nurture that vision,
+                        raising confident,
+                        compassionate, and exceptional
+                        young minds who are prepared
+                        to make a meaningful difference
+                        in the world.
+
+                    </p>
+
+
+                    <!-- FOUNDERS SIGNATURE -->
+                    <div class="founders-signature">
+
+                        <span class="founders-signature-line"></span>
+
+                        <div>
+
+                            <strong>
+                                Dr. Samuel &amp; Nike Ajayi
+                            </strong>
+
+                            <span>
+                                Founders, Grace Horizon
+                                International School
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <a href="gallery.html"
+                       class="text-link">
+
+                        Discover Life at Grace Horizon
+
+                        <span aria-hidden="true">↗</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             MOVING WORDS STRIP
+        ========================================== -->
+
+        <section
+            class="marquee-section"
+            aria-label="Our school values">
+
+            <div class="marquee-track">
+
+                <div class="marquee-content">
+
+                    <span>FAITH</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>EXCELLENCE</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>CREATIVITY</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>CHARACTER</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>GROWTH</span>
+                    <span class="marquee-star">✳</span>
+
+                </div>
+
+
+                <div class="marquee-content"
+                     aria-hidden="true">
+
+                    <span>FAITH</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>EXCELLENCE</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>CREATIVITY</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>CHARACTER</span>
+                    <span class="marquee-star">✳</span>
+
+                    <span>GROWTH</span>
+                    <span class="marquee-star">✳</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             03 — OUR VALUES
+             LEARN. GROW. SHINE.
+        ========================================== -->
+
+        <section class="values-section" id="our-values">
+
+
+            <!-- DECORATIVE CHILDREN'S BLOCKS -->
+            <div class="kids-decorations" aria-hidden="true">
+
+                <div class="kids-block block-a">
+                    A
+                </div>
+
+                <div class="kids-block block-star">
+                    ★
+                </div>
+
+                <div class="kids-shape shape-circle"></div>
+
+                <div class="kids-shape shape-triangle"></div>
+
+                <span class="kids-star star-one">✳</span>
+
+                <span class="kids-star star-two">✦</span>
+
+                <span class="kids-star star-three">✳</span>
+
+                <div class="kids-block block-b">
+                    B
+                </div>
+
+                <div class="kids-block block-c">
+                    C
+                </div>
+
+            </div>
+
+
+            <div class="values-container">
+
+
+                <!-- SECTION HEADING -->
+                <div class="values-heading reveal">
+
+                    <p class="section-label">
+                        03 — OUR VALUES
+                    </p>
+
+
+                    <h2>
+
+                        Learn.
+
+                        <span class="grow-word">
+                            Grow.
+                        </span>
+
+                        <span class="shine-word">
+                            Shine.
+                        </span>
+
+                    </h2>
+
+
+                    <p class="values-intro">
+
+                        Every child carries a seed
+                        of greatness.
+
+                        At Grace Horizon International
+                        School, we provide a nurturing
+                        environment where young minds
+                        learn with curiosity,
+                        grow in character,
+                        and shine with confidence.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- THREE INTERACTIVE VALUE CARDS -->
+                <div class="values-grid">
+
+
+                    <!-- ==========================
+                         CARD 1: LEARN
+                    ========================== -->
+
+                    <article class="value-card learn-card reveal">
+
+                        <div class="value-card-top">
+
+                            <span class="value-number">
+                                01 / DISCOVER
+                            </span>
+
+                            <span class="value-arrow"
+                                  aria-hidden="true">
+                                ↗
+                            </span>
+
+                        </div>
+
+
+                        <div class="value-card-content">
+
+                            <div class="value-icon-wrapper">
+
+                                <span class="value-icon"
+                                      aria-hidden="true">
+                                    ✳
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+                                Learn.
+                            </h3>
+
+
+                            <p class="value-subtitle">
+
+                                Curious Minds.
+                                Inspired Learning.
+
+                            </p>
+
+
+                            <p>
+
+                                We inspire a love for
+                                learning through creativity,
+                                exploration, and academic
+                                excellence, helping every
+                                child discover the joy
+                                of knowledge.
+
+                            </p>
+
+                        </div>
+
+
+                        <!-- DECORATIVE LETTER BLOCKS -->
+                        <div class="card-toys" aria-hidden="true">
+
+                            <span class="toy-block toy-a">
+                                A
+                            </span>
+
+                            <span class="toy-block toy-b">
+                                B
+                            </span>
+
+                            <span class="toy-block toy-c">
+                                C
+                            </span>
+
+                        </div>
+
+
+                        <span class="value-card-decoration"
+                              aria-hidden="true">
+                            ✳
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- ==========================
+                         CARD 2: GROW
+                    ========================== -->
+
+                    <article class="value-card grow-card reveal">
+
+                        <div class="value-card-top">
+
+                            <span class="value-number">
+                                02 / NURTURE
+                            </span>
+
+                            <span class="value-arrow"
+                                  aria-hidden="true">
+                                ↗
+                            </span>
+
+                        </div>
+
+
+                        <div class="value-card-content">
+
+                            <div class="value-icon-wrapper">
+
+                                <span class="value-icon"
+                                      aria-hidden="true">
+                                    ♡
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+                                Grow.
+                            </h3>
+
+
+                            <p class="value-subtitle">
+
+                                Rooted in Faith.
+                                Strong in Character.
+
+                            </p>
+
+
+                            <p>
+
+                                Guided by Christian values,
+                                we nurture kindness,
+                                integrity, respect,
+                                and responsibility,
+                                helping children grow
+                                into compassionate
+                                individuals.
+
+                            </p>
+
+                        </div>
+
+
+                        <!-- DECORATIVE GROWING FLOWER -->
+                        <div class="card-toys grow-toys"
+                             aria-hidden="true">
+
+                            <span class="toy-flower">
+                                ✿
+                            </span>
+
+                            <span class="toy-heart">
+                                ♥
+                            </span>
+
+                        </div>
+
+
+                        <span class="value-card-decoration"
+                              aria-hidden="true">
+                            ✦
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- ==========================
+                         CARD 3: SHINE
+                    ========================== -->
+
+                    <article class="value-card shine-card reveal">
+
+                        <div class="value-card-top">
+
+                            <span class="value-number">
+                                03 / FLOURISH
+                            </span>
+
+                            <span class="value-arrow"
+                                  aria-hidden="true">
+                                ↗
+                            </span>
+
+                        </div>
+
+
+                        <div class="value-card-content">
+
+                            <div class="value-icon-wrapper">
+
+                                <span class="value-icon"
+                                      aria-hidden="true">
+                                    ✦
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+                                Shine.
+                            </h3>
+
+
+                            <p class="value-subtitle">
+
+                                Confident Hearts.
+                                Bright Futures.
+
+                            </p>
+
+
+                            <p>
+
+                                We empower every child
+                                to embrace their unique
+                                talents, develop confidence,
+                                pursue excellence,
+                                and become a positive
+                                light in the world.
+
+                            </p>
+
+                        </div>
+
+
+                        <!-- DECORATIVE STARS -->
+                        <div class="card-toys shine-toys"
+                             aria-hidden="true">
+
+                            <span class="toy-sun">
+                                ☀
+                            </span>
+
+                            <span class="toy-sparkle">
+                                ✨
+                            </span>
+
+                        </div>
+
+
+                        <span class="value-card-decoration"
+                              aria-hidden="true">
+                            ✳
+                        </span>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- VALUES BOTTOM MESSAGE -->
+                <div class="values-bottom reveal">
+
+                    <span class="values-bottom-star"
+                          aria-hidden="true">
+                        ✳
+                    </span>
+
+
+                    <p>
+
+                        Raising a generation of
+
+                        <strong>
+                            purpose, excellence and faith.
+                        </strong>
+
+                    </p>
+
+
+                    <a href="gallery.html"
+                       class="values-link">
+
+                        Explore School Life
+
+                        <span aria-hidden="true">↗</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             04 — SCHOOL LIFE GALLERY
+        ========================================== -->
+
+        <section class="school-life-section"
+                 id="school-life">
+
+
+            <div class="school-life-heading reveal">
+
+                <p class="section-label">
+                    04 — LIFE AT GRACE HORIZON
+                </p>
+
+
+                <h2 class="section-heading">
+
+                    Every Day is
+
+                    <span>
+                        An Adventure.
+                    </span>
+
+                </h2>
+
+
+                <p>
+
+                    Discover the beautiful moments,
+                    friendships, creativity,
+                    and unforgettable experiences
+                    that make our school special.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- MOVING SCHOOL PHOTO GALLERY -->
+            <div class="photo-marquee"
+                 aria-label="School life photographs">
+
+                <div class="photo-track">
+
+
+                    <!-- PHOTO 1 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/ChurchPhotos.jpeg"
+                            alt="Grace Horizon founders"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Our Founders
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 2 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/Colorful School Assembly Courtyard.png"
+                            alt="School assembly"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            School Assembly
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 3 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/Joyful Classroom Craft Parade.png"
+                            alt="Children enjoying creative learning"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Creative Learning
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 4 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/Neatly Aligned School Portrait.png"
+                            alt="Grace Horizon students"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Our Students
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 5 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/Playful Bunny Hat in Preschool.png"
+                            alt="Preschool activities"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Little Explorers
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 6 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/School Assembly at the Colorful Courtyard.png"
+                            alt="School community"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Life at School
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 7 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/School Photos1.jpeg"
+                            alt="School sports and teamwork"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Sports &amp; Teamwork
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 8 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/School Photos2.jpeg"
+                            alt="School celebrations"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Special Moments
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 9 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/Tartan School Portrait Duo.png"
+                            alt="Grace Horizon students wearing school uniforms"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Proudly Grace Horizon
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO 10 -->
+                    <div class="photo-card">
+
+                        <img
+                            src="images/WhatsApp Image 2026-10-13 at 12.20.04 AM.jpeg"
+                            alt="Children participating in school activities"
+                            loading="lazy">
+
+                        <div class="photo-caption">
+                            Learning Beyond the Classroom
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="school-life-button">
+
+                <a href="gallery.html"
+                   class="primary-button">
+
+                    Explore Our Gallery
+
+                    <span aria-hidden="true">↗</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             05 — OUR MOTTO
+             A FUTURE FULL OF PROMISE
+             GRADUATION CELEBRATION SECTION
+        ========================================== -->
+
+        <section class="motto-section" id="our-motto">
+
+
+            <!-- FLOATING DECORATIONS -->
+            <div class="motto-decorations" aria-hidden="true">
+
+                <span class="motto-floating-star motto-star-one">
+                    ✳
+                </span>
+
+                <span class="motto-floating-star motto-star-two">
+                    ✦
+                </span>
+
+                <span class="motto-floating-star motto-star-three">
+                    ★
+                </span>
+
+                <span class="motto-floating-cap">
+                    🎓
+                </span>
+
+                <span class="motto-decoration-circle"></span>
+
+                <span class="motto-decoration-ring"></span>
+
+            </div>
+
+
+
+            <div class="motto-container">
+
+
+                <!-- TOP SECTION LABEL -->
+                <div class="motto-top reveal">
+
+                    <span class="motto-top-line"></span>
+
+                    <p class="section-label">
+                        05 — OUR GOD-GIVEN PROMISE
+                    </p>
+
+                    <span class="motto-top-line"></span>
+
+                </div>
+
+
+
+                <!-- LARGE MOTTO HEADING -->
+                <div class="motto-content reveal">
+
+                    <span class="motto-icon"
+                          aria-hidden="true">
+                        ✳
+                    </span>
+
+
+                    <p class="motto-small-heading">
+                        LITTLE SEEDS. EXTRAORDINARY FUTURES.
+                    </p>
+
+
+                    <h2 class="motto-main-heading">
+
+                        The seed of the
+
+                        <span class="motto-highlight">
+                            righteous
+                        </span>
+
+                        shall be
+
+                        <span class="motto-highlight mighty-word">
+                            mighty.
+                        </span>
+
+                    </h2>
+
+
+                    <p class="motto-verse">
+                        — PSALM 112:2 —
+                    </p>
+
+
+                    <p class="motto-description">
+
+                        Every child begins as a seed of promise.
+
+                        Through faith, knowledge, love and
+                        guidance, we nurture that seed to grow
+                        into a future filled with purpose,
+                        confidence and greatness.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- ======================================
+                     UPDATED GRADUATION PHOTO COLLAGE
+                     ACTUAL IMAGES FOLDER FILENAMES
+                ====================================== -->
+
+                <div class="motto-graduation-gallery">
+
+
+                    <!-- ==================================
+                         PHOTO 1: LITTLE BEGINNINGS
+                         PRESCHOOL CHILDREN
+                    ================================== -->
+
+                    <figure
+                        class="graduation-photo graduation-photo-left reveal">
+
+                        <img
+                            src="images/Playful Bunny Hat in Preschool.png"
+                            alt="Young Grace Horizon preschool pupil enjoying an early learning activity"
+                            loading="lazy">
+
+
+                        <figcaption>
+
+                            <span>
+                                01 / LITTLE BEGINNINGS
+                            </span>
+
+                            <strong>
+                                Dream Big.
+                            </strong>
+
+                        </figcaption>
+
+                    </figure>
+
+
+
+                    <!-- ==================================
+                         PHOTO 2: GROWING IN GREATNESS
+                         CHILDREN LEARNING AND GROWING
+                    ================================== -->
+
+                    <figure
+                        class="graduation-photo graduation-photo-center reveal">
+
+                        <img
+                            src="images/Cheerful School Craft Showcase (1).png"
+                            alt="Grace Horizon pupils proudly displaying their creative work"
+                            loading="lazy">
+
+
+                        <figcaption>
+
+                            <span>
+                                02 / GROWING IN GREATNESS
+                            </span>
+
+                            <strong>
+                                Shine Bright.
+                            </strong>
+
+                        </figcaption>
+
+                    </figure>
+
+
+
+                    <!-- ==================================
+                         PHOTO 3: MIGHTY FUTURES
+                         ACTUAL GRADUATION PHOTOGRAPH
+                    ================================== -->
+
+                    <figure
+                        class="graduation-photo graduation-photo-right reveal">
+
+                        <img
+                            src="images/Graduation Day at the Colorful School (1).png"
+                            alt="Grace Horizon pupils celebrating graduation day"
+                            loading="lazy">
+
+
+                        <figcaption>
+
+                            <span>
+                                03 / MIGHTY FUTURES
+                            </span>
+
+                            <strong>
+                                Go Further.
+                            </strong>
+
+                        </figcaption>
+
+                    </figure>
+
+
+
+                    <!-- DECORATIVE GRADUATION BADGE -->
+                    <div class="graduation-badge"
+                         aria-hidden="true">
+
+                        <span>THE</span>
+
+                        <strong>FUTURE</strong>
+
+                        <span>IS BRIGHT</span>
+
+                        <span class="graduation-badge-star">
+                            ✳
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- BOTTOM MESSAGE -->
+                <div class="motto-bottom reveal">
+
+                    <div class="motto-bottom-icon"
+                         aria-hidden="true">
+                        ✦
+                    </div>
+
+
+                    <div class="motto-bottom-text">
+
+                        <h3>
+                            From little seeds to mighty futures.
+                        </h3>
+
+
+                        <p>
+
+                            We celebrate every milestone,
+                            every achievement and every
+                            child becoming who they were
+                            created to be.
+
+                        </p>
+
+                    </div>
+
+
+                    <a href="gallery.html"
+                       class="motto-gallery-link">
+
+                        Explore Our Memories
+
+                        <span aria-hidden="true">↗</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             06 — CONTACT SECTION
+        ========================================== -->
+
+        <section class="cta-section">
+
+            <div class="cta-image">
+
+                <img
+                    src="images/School Assembly at the Colorful Courtyard.png"
+                    alt="Grace Horizon International School community"
+                    loading="lazy">
+
+            </div>
+
+
+            <div class="cta-content reveal">
+
+                <p class="section-label">
+                    06 — JOIN THE GRACE HORIZON FAMILY
+                </p>
+
+
+                <h2>
+
+                    A Brighter Future
+                    Starts Here.
+
+                </h2>
+
+
+                <p>
+
+                    Every child has a unique purpose
+                    and extraordinary potential.
+
+                    We would love to welcome you
+                    into the Grace Horizon
+                    International School family.
+
+                </p>
+
+
+                <a href="contact.html"
+                   class="primary-button">
+
+                    Contact Our School
+
+                    <span aria-hidden="true">↗</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+
+            <!-- SCHOOL INFORMATION -->
+            <div class="footer-about">
+
+                <h3>
+                    GRACE HORIZON ✳
+                </h3>
+
+
+                <p>
+
+                    Grace Horizon International School.
+
+                    Raising a generation rooted in faith,
+                    strengthened by knowledge,
+                    and prepared for greatness.
+
+                </p>
+
+
+                <p class="footer-motto">
+
+                    “The seed of the righteous
+                    shall be mighty.”
+
+                    <br>
+
+                    Psalm 112:2
+
+                </p>
+
+            </div>
+
+
+
+            <!-- QUICK LINKS -->
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+            </div>
+
+
+
+            <!-- CONTACT INFORMATION -->
+            <div class="footer-contact">
+
+                <h4>Get in Touch</h4>
+
+
+                <p>
+
+                    Grace Horizon International School.
+
+                    We look forward to hearing from you.
+
+                </p>
+
+
+                <a href="contact.html">
+
+                    Send Us a Message
+
+                    <span aria-hidden="true">↗</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+
+            <p>
+
+                &copy; 2026
+                Grace Horizon International School.
+                All Rights Reserved.
+
+            </p>
+
+
+            <a href="#home">
+                Back to Top ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
